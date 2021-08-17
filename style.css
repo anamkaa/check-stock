@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,700&display=swap');
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    box-sizing: border-box;
+    color: white;
+}
+
+.container{
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    width: 50vw;
+    background-color:#276749;
+    
+}
+
+.container{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: #2F855A;
+}
+
+label{
+    /* display: flex;
+    justify-content: flex-start; */
+    /* padding: auto;
+    margin: auto; */
+    padding-top: 1rem;
+    text-align: left;
+    font-size: 1.4rem;
+    
+}
+
+/* input{
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    width: 70%;
+} */
+
+input{
+    padding: 0.8rem;
+    border-radius: 0.3rem;
+    font-weight: bold;
+}
+
+button{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    /* height: 50px;
+    max-width: 160px; */
+    /* padding: 1rem;
+    margin: 1rem;
+
+    font-size: larger ;
+    font-weight: bolder;
+
+    border-color: #234E52;
+    border-radius: 0.4rem;
+
+    color: white;
+    background-color:#234E52;
+    margin-left: 5rem;
+    margin-right: 5rem; */
+
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    width:18vw;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 2rem;
+    border-color: #234E52;
+    color: white;
+    background-color:#234E52;
+    
+
+}
+
+#output-box{
+    padding: 1rem;
+}
+
+
+
+/* .input-item {
+    max-width: 500px;
+} */

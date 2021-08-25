@@ -53,26 +53,6 @@ input{
 }
 
 button{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-
-    /* height: 50px;
-    max-width: 160px; */
-    /* padding: 1rem;
-    margin: 1rem;
-
-    font-size: larger ;
-    font-weight: bolder;
-
-    border-color: #234E52;
-    border-radius: 0.4rem;
-
-    color: white;
-    background-color:#234E52;
-    margin-left: 5rem;
-    margin-right: 5rem; */
-
     padding: 0.5rem;
     border-radius: 0.2rem;
     width:18vw;
@@ -87,6 +67,10 @@ button{
     background-color:#234E52;
     
 
+}
+
+button:hover{
+    font-size: larger;
 }
 
 #output-box{

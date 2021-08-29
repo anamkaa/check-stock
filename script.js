@@ -7,9 +7,9 @@ var outputBox = document.querySelector("#output-box");
 checkValue.addEventListener('click', showProfitAndLoss);
 
 function showProfitAndLoss(){
-    var ip = initialPrice.value;
-    var qty = stockQuantity.value;
-    var curr = currentPrice.value;
+    var ip = Number(initialPrice.value);
+    var qty = Number(stockQuantity.value);
+    var curr = Number(currentPrice.value);
 
     calculateProfitAndLoss(ip,qty,curr);
 }
@@ -25,9 +25,8 @@ function calculateProfitAndLoss(initial,quantity,current){
 
        else if (current>initial){
         outputBox.style.color = 'lightGreen';
-           const  profit = ((current-initial) * quantity).toFixed(2) ;
-           const profitPercentage = ((profit/initial) * 100).toFixed(2);
-           console.log(profitPercentage);
+           var  profit = ((current-initial) * quantity).toFixed(2) ;
+           var profitPercentage = ((profit/initial) * 100).toFixed(2);
            showMessage(`The profit is ${profit} and profit percentage is ${profitPercentage}%`);
        }
 
